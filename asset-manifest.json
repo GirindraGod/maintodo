@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/maintodo/static/css/main.5197df4a.css",
+    "main.js": "/maintodo/static/js/main.7b491437.js",
+    "index.html": "/maintodo/index.html",
+    "main.5197df4a.css.map": "/maintodo/static/css/main.5197df4a.css.map",
+    "main.7b491437.js.map": "/maintodo/static/js/main.7b491437.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5197df4a.css",
+    "static/js/main.7b491437.js"
+  ]
+}
