@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding:0;
+   
+}
+
+body{
+    background: #7532e3;
+    z-index: -1;
+}
+
+
+.mainheading0 {
+    font-size: 80px;
+    padding: 30px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff6ff;
+}
+
+.openpage0{
+    width:60px;
+    height:60px;
+    display: flex;
+    position: fixed;
+    transform: translate(1390px,450px);
+    background-color: #7532e3;
+    border: #7532e3;
+}
+
+.openpage1{
+    width:60px;
+    height:60px;
+    display: flex;
+    position: fixed;
+    transform: translate(1390px,300px);
+    background-color: #7532e3;
+    border: #7532e3;
+}
+
+
+.popup0{
+    width: 800px;
+    height: 400px;
+    background-color: #fff6ff;
+    position: fixed;
+    top: 250px;
+    right:350px;
+    transition: all 0.3s ease-in-out;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+
+.popup1{
+    width: 800px;
+    height: 400px;
+    background-color: #fff6ff;
+    position: fixed;
+    top: 250px;
+    right:350px;
+    transition: all 0.3s ease-in-out;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.popupclose0{
+    width:25px;
+    height:25px;
+    background-color: #fff6ff;
+    border: none;
+    transform: translate(630px,-200px);
+}
+
+.popupclose1{
+    width:25px;
+    height:25px;
+    background-color: #fff6ff;
+    border: none;
+    transform: translate(630px,-220px);
+}
+
+
+.info0{
+    background-color: #fff6ff;
+    
+}
+
+.info1{
+    background-color: #fff6ff;
+}
+
+
+.mainheading1{
+    font-size: 40px;
+    display:flex;
+    position: fixed;
+    justify-content: right;
+    transform: translate(1150px,305px);
+    
+}
+
+.mainheading2{
+    font-size: 40px;
+    display:flex;
+    position: fixed;
+    justify-content: right;
+    transform: translate(1170px,455px);
+}
+
+@media(max-width:370px){
+    body{
+        width:360px;
+        overflow-x: hidden;
+    }
+    .mainheading0{
+        transform: translate(180px,0);
+        font-size: 100px;
+    }
+    .openpage0{
+        height:60px;
+        width:60px;
+        transform: translate(400px,0);
+        border-radius: 50px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

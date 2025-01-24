@@ -1,0 +1,55 @@
+.stored-tasks {
+    margin-top: 20px;
+  }
+  
+  .stored-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .stored-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .stored-item {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 5px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .task-text {
+    font-weight: bold;
+  }
+  
+  .task-date, .task-time {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .task-buttons {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .complete-btn, .delete-btn {
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .complete-btn {
+    background: #4caf50; /* Green */
+    color: white;
+  }
+  
+  .delete-btn {
+    background: #f44336; /* Red */
+    color: white;
+  }
+  

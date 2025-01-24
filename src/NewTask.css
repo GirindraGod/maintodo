@@ -1,0 +1,52 @@
+.form-heading{
+    transform: translate(-10px,-70px);
+    font-size: 50px;
+}
+
+.popupclose0{
+    align-items: end;
+}
+
+.ninfo0{
+    margin-right:10px ;
+    height: 40px;
+    width: 300px;
+    transform: translate(-40px,0);
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px;
+    font-size: 20px;
+}
+
+.ninfo1{
+    margin-right:10px ;
+    height: 40px;
+    width: 150px;
+    transform: translate(-40px,0);
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px;
+    font-size: 20px;
+}
+
+.ninfo2{
+    margin-right:5px ;
+    height: 40px;
+    width: 35px;
+    transform: translate(-40px,0);
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px;
+    font-size: 20px;
+    padding-right: 7px;
+}
+
+.nsubmit-button{
+
+    height: 45px;
+    width:100px;
+    transform: translate(15px,-2px);
+    font-size: 17px;
+    background: #4bfce1;
+    border-radius: 5px;
+    border: rgba(0, 0, 0, 0);
+    box-shadow: 10px 10px 10px;
+   
+}
